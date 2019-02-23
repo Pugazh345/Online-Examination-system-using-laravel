@@ -1,0 +1,156 @@
+.about{
+	overflow: hidden;
+	
+    height: 400px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color:#DDD;
+    z-index: 5;
+
+    background: #000000
+}
+.about h1{
+    font-size: 34px;
+    
+    font-weight: 400;
+    line-height: 1.1;
+}
+.abth1{
+    float: left;
+
+    padding-left: 7.5%;
+    padding-top: 5.5%;
+}
+.abtactext{
+    float: left;
+}
+.about::after {
+    content: "";
+    background-image: url('../images/abouthead.jpg');
+    
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+.aboutcon{
+    margin-top: 20px;
+    font-size: 18px;
+} 
+.sub_simpli{
+    color: #2b0404;
+    font-weight: bold;
+}
+.aboutcon h3{
+    color: #333;
+	text-align: center;
+	
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+    margin: 30px 0 60px;
+    font-size: 28px;
+}
+.vision{
+    padding-bottom: 50px;
+}
+.col-sm-3{
+	margin-top: 5px;
+}
+@media  screen and (min-width:780px){
+	.col-sm-3{
+	  float: left !important;
+
+	}
+}
+@media  screen and (max-width:780px){
+	.col-sm-3{
+	 width: 100%;
+
+	}
+}
+.about{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+.circle_wrap{
+	margin-top: 20px;
+    height: auto;
+    color: #e28b00;
+}
+.circle_wrap_outer{
+    text-align: center;
+}
+.circle_wrap_outer h2{
+width: 150px;
+height: 150px;
+-moz-border-radius: 7.5px;
+-webkit-border-radius: 7.5px;
+border-radius: 50%;
+border: 2px solid;
+padding: 50px;
+margin-left: 45px;
+}
+.gac{
+    padding-left: 30px !important;
+}
+
+.professionals_wrap h2{
+	font-size: 16px;
+}
+.rounded1 :before {
+    background: url(img/about-sprite_v1.png) no-repeat;
+    content: "";
+}
+.vision_wrapper{
+	       margin-bottom: 20px;
+    margin-top: 220px;
+    position: relative;
+	background: #f8ab33;
+
+}
+.vision_wrapper h3{
+	padding: 10px 10px 10px 10px;
+font-size: 30px;
+color: #fff;
+font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B",Helvetica,Arial,sans-serif;
+}
+.bg-default-text{
+	font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B",Helvetica,Arial,sans-serif;
+	    font-weight: 300;
+    size: 50px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: rgba(255,255,255,.9);
+padding: 20px 30px 30px 20px;
+}
+.vision{
+	font-size: 16px;
+font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B",Helvetica,Arial,sans-serif;
+font: #b0b6ba;
+height: auto; 
+margin-top: 50px;
+}
+
+.rounded3:after {
+    background-position: -93px -77px;
+    width: 50px;
+    height: 50px;
+        background-position: -144px -4px;
+    margin-top: 20px;
+        background: url(../../images/about-sprite_v1.png) no-repeat;
+    content: "";
+}
